@@ -316,9 +316,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
-					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
 				);
 				DSTROOT = /tmp/OAuthConsumer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -333,9 +332,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
-					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
 				);
 				DSTROOT = /tmp/OAuthConsumer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -365,6 +363,7 @@
 				238B2C0215543975003C3481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

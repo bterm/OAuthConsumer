@@ -228,7 +228,7 @@
 		238B2BEA15543975003C3481 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = ONESite;
 			};
 			buildConfigurationList = 238B2BED15543975003C3481 /* Build configuration list for PBXProject "OAuthConsumer" */;
@@ -322,6 +322,7 @@
 				DSTROOT = /tmp/OAuthConsumer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OAuthConsumer/OAuthConsumer-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -338,6 +339,7 @@
 				DSTROOT = /tmp/OAuthConsumer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OAuthConsumer/OAuthConsumer-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
